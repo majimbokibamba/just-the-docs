@@ -266,30 +266,3 @@
     }
   }
 }
-
-.message--error {
-  border-left-color: firebrick;
-
-  &:before {
-    background-color: firebrick;
-    content: "‼";
-  }
-}
-
-.message--warning {
-  border-left-color: darkorange;
-
-  &:before {
-    background-color: darkorange;
-    content: "!";
-  }
-}
-
-.message--success {
-  border-left-color: darkolivegreen;
-
-  &:before {
-    background-color: darkolivegreen;
-    content: "✔";
-  }
-}
